@@ -59,7 +59,7 @@ const Hero = () => {
             <div className="relative">
               <div className="bg-gradient-to-r from-blue-600 to-cyan-600 rounded-2xl p-8 shadow-2xl">
                 <img
-                  src="https://images.pexels.com/photos/263402/pexels-photo-263402.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="https://i.ibb.co/35TJBjHk/medical-device-Supply-chain-Management.jpg"
                   alt="Medical Equipment"
                   className="w-full h-80 object-cover rounded-xl shadow-lg"
                 />
