@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <>
-      {/* Top Contact Bar */}
+      
       <div className="bg-blue-900 text-white py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-between items-center text-sm">
@@ -53,12 +53,17 @@ const Header = () => {
             </nav>
 
             {/* CTA Button */}
-            <div className="hidden md:flex">
-              <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
-                Get Quote
-              </button>
-            </div>
-
+           <div className="hidden md:flex">
+             <a
+               href="https://wa.me/918860702654?text=Hello%2C%20Holkar%20Healthcare%20Kindly%20Share%20Your%20Catalogue%20with%20me%20along%20with%20product%20pricing%20quote"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium inline-block text-center focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+               aria-label="Get a quote via WhatsApp - Contact Holkar Healthcare for medical device catalog and pricing"
+            >
+             Get Quote
+            </a>
+          </div>
             {/* Mobile Menu Button */}
             <button
               className="md:hidden"
