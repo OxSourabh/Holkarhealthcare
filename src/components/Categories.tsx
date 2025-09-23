@@ -105,6 +105,5 @@ const Categories = () => {
   );
 };
 
-<a href="https://a12b093b-trial.flowpaper.com/ASEnterprisesMedicalEquipmentsCatalogue1/#PreviewMode=Miniature" class="fp-embed" data-fp-width="400px" data-fp-height="300px" style="max-width: 100%"></a><script async defer src="https://cdn-online.flowpaper.com/zine/3.9.2/js/embed.min.js"></script>
 
 export default Categories;

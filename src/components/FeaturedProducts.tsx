@@ -27,9 +27,9 @@ const FeaturedProducts = () => {
       id: 3,
       name: 'Ultrasound Scanner',
       category: 'Diagnostic Equipment',
-      price: '₹12,00,000',
-      rentalPrice: '₹20,000/month',
-      image: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=500',
+      price: '₹8,00,000',
+      rentalPrice: '₹40,000/month',
+      image: 'https://ibb.co/jkpJnBNq"><img src="https://i.ibb.co/r2WdDTjq/shopping.png',
       rating: 4.7,
       features: ['Color Doppler', 'Portable Design', '3D/4D Imaging']
     },
