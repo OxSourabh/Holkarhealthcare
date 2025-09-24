@@ -138,9 +138,15 @@ const FeaturedProducts = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
-            View All Products
-          </button>
+       <a href="https://wa.me/918860702654?text=Hello%2C%20Holkar%20Healthcare%20Kindly%20Share%20Your%20Catalogue%20with%20me%20along%20with%20product%20pricing%20quote"
+          target="_blank"
+          rel="noopener noreferrer"
+         >
+    <button className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg">
+      View All Products
+    </button>
+  </a>
+</div>
         </div>
       </div>
     </section>
