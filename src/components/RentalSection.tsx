@@ -52,20 +52,20 @@ const RentalSection = () => {
     },
     {
       id: 15,
-      name: 'Ultrasound Scanner - 4D',
-      category: 'Diagnostic',
-      monthlyRate: '₹35,000',
-      image: 'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=500',
-      features: ['Color Doppler', '4D imaging', 'Multiple probes'],
+      name: 'Infusion Pump',
+      category: 'Therapeutic ',
+      monthlyRate: '₹2,800',
+      image: 'https://i.ibb.co/4w8D31Dq/Mindray-Benefusion-SP1-Syringe-Infusion-Pump-1.png',
+      features: ['High Precision delivery', 'Advanced Safety Alarm', 'Multiple probes'],
       availability: 'Limited'
     },
     {
       id: 16,
-      name: 'Defibrillator - Biphasic',
+      name: 'Nebulizer Machine',
       category: 'Emergency',
-      monthlyRate: '₹22,000',
-      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=500',
-      features: ['Manual & AED modes', 'ECG monitoring', 'Pediatric capability'],
+      monthlyRate: '₹800',
+      image: 'https://i.ibb.co/Q44sWyW/618-QC5-Tqec-L-SX522-1.png',
+      features: ['Long-Life Compresser', 'Conveniant handling', 'Paediatric Capability'],
       availability: 'Available'
     },
     {
