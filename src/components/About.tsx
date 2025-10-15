@@ -49,10 +49,15 @@ const About = () => {
               </div>
             </div>
 
-            <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
-              Learn More About Us
-            </button>
-          </div>
+            <a 
+             href="https://www.facebook.com/profile.php?id=61577874597815" 
+             target="_blank" 
+             rel="noopener noreferrer"
+            >
+  <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold">
+    Learn More About Us
+  </button>
+</a>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-6">
