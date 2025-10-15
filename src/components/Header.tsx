@@ -72,8 +72,6 @@ const Header = () => {
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
           </div>
-
-          {/* Mobile Navigation */}
           {isMenuOpen && (
             <div className="md:hidden pb-4">
               <nav className="flex flex-col space-y-2">
@@ -83,9 +81,11 @@ const Header = () => {
                 <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">Services</a>
                 <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">About</a>
                 <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium py-2">Contact</a>
+                <a href="https://wa.link/3z7vrg" target="_blank" rel="noopener noreferrer">
                 <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium mt-4 w-fit">
-                  Get Quote
+                 Get Quote
                 </button>
+              </a>
               </nav>
             </div>
           )}
